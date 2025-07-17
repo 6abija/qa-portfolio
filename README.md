@@ -55,7 +55,7 @@ In QA, I’ve found the perfect blend of **detail orientation, logic, and impact
   
 ### 🛒 API testing exapmle
 
-- 📋 [Topocentras](6abija-topocentras)
+- 📋 [Topocentras](https://github.com/6abija/qa-portfolio/blob/6abija-practicesoftwaretesting/topocentras-api.postman_collection.json)
   
 _→ Covers: registration, login, profile, cart, wishlist, club membership  
 → Import directly into Postman to view/test_
