@@ -2,7 +2,7 @@
 
 ## About Me 👋
 
-Hi! I'm **Gabija Jusytė**, an aspiring QA tester on a path to build a strong foundation in both **manual** and **automated** software testing. I'm currently completing a QA certification at **CodeAcademy**:  
+Hi! I'm **Gabija**, an aspiring QA tester on a path to build a strong foundation in both **manual** and **automated** software testing. I'm currently completing a QA certification at **CodeAcademy**:  
 _Automatic and Manual Information Systems Testing and Artificial Intelligence_  
 **(Finishing August 18th, 2025)**
 
@@ -36,10 +36,10 @@ In QA, I’ve found the perfect blend of **detail orientation, logic, and impact
 - Write and execute **manual test cases**
 - Perform **functional, UI, smoke, exploratory testing**
 - Test and validate **REST APIs** with Postman
-- Automate test scenarios using **Cypress + JavaScript**
 - Log detailed **bug reports** with steps & attachments
 - Work in **Agile (Scrum)** environments
 - Maintain testing documentation and test reports
+- Automate test scenarios using **Cypress + JavaScript** (in progress)
 
 ---
 
@@ -72,7 +72,7 @@ _→ Covers: registration, cart, payment, invoice, adding product category
 
 ## 📜 Courses & Certifications
 
-- 🎓 **QA Certification (in progress)**  
+- 🎓 **QA Certification**  
   _CodeAcademy: Automatic and Manual Information Systems Testing + AI_
   
 - 🎓 **Web development Certification**  
