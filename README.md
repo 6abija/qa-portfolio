@@ -46,16 +46,28 @@ In QA, I’ve found the perfect blend of **detail orientation, logic, and impact
 ## 🧪 Sample Projects
 
 ### 📦 OpenCart E-commerce Demo
-> Manual + Automated Testing
+> Manual Testing
 
-- ✅ [Full Test Plan](https://docs.google.com/document/d/1aDmN6flr0ZWoU_ppdH5lweQguLdr4Sjk69Qf_xN5UWI/edit?tab=t.0)
+- ✅ [Test Plan](https://docs.google.com/document/d/1aDmN6flr0ZWoU_ppdH5lweQguLdr4Sjk69Qf_xN5UWI/edit?tab=t.0)
 - 🧾 [Manual Test Cases](https://docs.google.com/spreadsheets/d/1_NuMW94xewG4vqqWIeUQpj0Dof7u8tEgr21y5lCfJJs/edit?gid=0#gid=0)
-- 💻 [Cypress Automation] (in progress)
+- 🐞 [BUG reports](https://docs.google.com/spreadsheets/d/1UhUFctiYEJOyToYe6ark-CiW9nRW3vex6XK_5jjO5jE/edit?gid=0#gid=0)
 
+  
 ### 🛒 API testing exapmle
 
-- 📋 [Topocentras]() _Testing : user registration, authentication, profile, cart, topoclub membership, +/-item, extra: wishlist,cart_
-- 📋 [Practice Software Testing]()  _Testing : user registration, log-in, cart, payment, invoice, adding product category_
+- 📋 [Topocentras](6abija-topocentras)
+  
+_→ Covers: registration, login, profile, cart, wishlist, club membership  
+→ Import directly into Postman to view/test_
+
+- 📋 [Practice Software Testing](6abija-practicesoftwaretesting)
+
+_→ Covers: registration, cart, payment, invoice, adding product category  
+→ Import directly into Postman to view/test_
+
+### 💻 Cypress testing (in progress)
+> Automated Testing
+
 ---
 
 ## 📜 Courses & Certifications
@@ -76,7 +88,7 @@ In QA, I’ve found the perfect blend of **detail orientation, logic, and impact
 ## 🤝 Let’s Connect
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/gabija-jusyte/) 
-- 💻 [My GitHub Projects](https://github.com/6abija) 
+ 
 
 ---
 
