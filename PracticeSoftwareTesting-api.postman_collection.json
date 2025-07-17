@@ -1,0 +1,594 @@
+{
+	"info": {
+		"_postman_id": "991be911-1525-4df1-b08b-b057f8f6e7d3",
+		"name": "Extra task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45095384",
+		"_collection_link": "https://gabija-59549.postman.co/workspace/Gabija's-Workspace~32f8aa65-d158-4acf-8ee1-ac0175fe39a2/collection/45095384-991be911-1525-4df1-b08b-b057f8f6e7d3?action=share&source=collection_link&creator=45095384"
+	},
+	"item": [
+		{
+			"name": "practice software testing",
+			"item": [
+				{
+					"name": "Register User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let res = pm.response.json();\r",
+									"let summary = `👤 ${res.first_name} ${res.last_name} | 📧 ${res.email} | 📞 ${res.phone} | 🆔 ${res.id} | 🗓️ ${res.dob} | 🏠 ${res.address.city}, ${res.address.country}`;\r",
+									" \r",
+									"pm.test(summary, function () {\r",
+									"    pm.expect(res.email).to.be.a('string');\r",
+									"});\r",
+									" \r",
+									"pm.environment.set(\"user_id\", res.id);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"first_name\": \"Kam\",\r\n  \"last_name\": \"Doel\",\r\n  \"address\": {\r\n    \"street\": \"Street 1\",\r\n    \"city\": \"City\",\r\n    \"state\": \"State\",\r\n    \"country\": \"Country\",\r\n    \"postal_code\": \"1234AA\"\r\n  },\r\n  \"phone\": \"0987654321\",\r\n  \"dob\": \"1970-01-01\",\r\n  \"password\": \"{{user_password}}\",\r\n  \"email\": \"{{user_email}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}users/register",
+							"host": [
+								"{{base_url}}users"
+							],
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let token = pm.response.json().accessToken;",
+									"pm.environment.set('accessToken', token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"testuser@example.com\",\n  \"password\": \"TestPassword123\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/users/login",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Cart",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{base_url}}/carts",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"carts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get products",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "add to cart",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/carts/01JX0D4TXRBMHPW854JH6S8GCR",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"carts",
+								"01JX0D4TXRBMHPW854JH6S8GCR"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "view cart",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/carts/{{cart_Id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"carts",
+								"{{cart_Id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "payment",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{acces_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"payment_method\": \"bank-transfer\",\r\n  \"payment_details\": {\r\n    \"bank_name\": \"good\",\r\n    \"account_name\": \"lol\",\r\n    \"account_number\": \"3\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/payment/check",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"payment",
+								"check"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "payment",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{acces_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{accessToken}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"billing_street\": \"gedimino\",\n  \"billing_city\": \"vilnius\",\n  \"billing_state\": \"Lietuva\",\n  \"billing_country\": \"Lietuva\",\n  \"billing_postal_code\": \"95837\",\n  \"payment_method\": \"bank-transfer\",\n  \"cart_id\": \"{{cart_Id}}\",\n  \"payment_details\": {\n    \"bank_name\": \"good\",\n    \"account_name\": \"lol\",\n    \"account_number\": \"3\"\n  }\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/invoices",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"invoices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "invoice",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{acces_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{accessToken}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/invoices",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"invoices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "change payment",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{accessToken}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"status\": \"Paid\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/invoices/{{invoiceId}}/status",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"invoices",
+								"{{invoiceId}}",
+								"status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "new category",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Books QA Test\",\r\n  \"slug\": \"books-qa-test-16859712\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/categories",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "all categories",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let categoryId = pm.response.json().id;",
+									"pm.environment.set('categoryId', categoryId);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{accessToken}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Testin\\u0117 kategorija\",\n  \"description\": \"Automatinis testas\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/categories",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "product added to category",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{accessToken}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"category_id\": \"{{categoryId}}\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/products/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"products",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cart",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "New Cart",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{base_url}}/carts",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"carts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add to cart",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/carts/01JX0D4TXRBMHPW854JH6S8GCR",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"carts",
+								"01JX0D4TXRBMHPW854JH6S8GCR"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add all product to cart",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let cartId = pm.response.json().id;",
+									"pm.environment.set('cartId', cartId);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{accessToken}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"items\": [\n    {\n      \"productId\": \"01JX0M0GJS199NHAGT20YE8EJR\",\n      \"quantity\": 1\n    }\n  ]\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/cart/items",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"cart",
+								"items"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "new item count",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{accessToken}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"items\": [\n    {\n      \"productId\": \"{{productId}}\",\n      \"quantity\": 3\n    }\n  ]\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/cart/{{cartId}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"cart",
+								"{{cartId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete cart",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{accessToken}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/cart/{{cartId}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"cart",
+								"{{cartId}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "category_products",
+			"value": ""
+		}
+	]
+}
