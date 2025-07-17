@@ -60,7 +60,7 @@ In QA, I’ve found the perfect blend of **detail orientation, logic, and impact
 _→ Covers: registration, login, profile, cart, wishlist, club membership  
 → Import directly into Postman to view/test_
 
-- 📋 [Practice Software Testing](6abija-practicesoftwaretesting)
+- 📋 [Practice Software Testing](https://github.com/6abija/qa-portfolio/blob/6abija-practicesoftwaretesting/topocentras-api.postman_collection.json)
 
 _→ Covers: registration, cart, payment, invoice, adding product category  
 → Import directly into Postman to view/test_
