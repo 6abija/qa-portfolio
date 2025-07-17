@@ -55,16 +55,8 @@ In QA, I’ve found the perfect blend of **detail orientation, logic, and impact
 
 ### 🛒 API testing exapmle
 
-- 📋 [Topocentras] ()
-  _Testing : user registration, authentication, profile, cart, topoclub membership, +/-item, extra: wishlist,cart_
-- 📋 [Practice Software Testing] ()
-  _Testing : user registration, log-in, cart, payment, invoice, adding product category_
-  
-### 🧼 Allegro Sandbox QA Tasks
-- Test Case Writing
-- Bug Reporting
-- Test Reports
-
+- 📋 [Topocentras]() _Testing : user registration, authentication, profile, cart, topoclub membership, +/-item, extra: wishlist,cart_
+- 📋 [Practice Software Testing]()  _Testing : user registration, log-in, cart, payment, invoice, adding product category_
 ---
 
 ## 📜 Courses & Certifications
