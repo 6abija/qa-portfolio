@@ -51,7 +51,6 @@ In QA, I’ve found the perfect blend of **detail orientation, logic, and impact
 - ✅ [Full Test Plan](https://docs.google.com/document/d/1aDmN6flr0ZWoU_ppdH5lweQguLdr4Sjk69Qf_xN5UWI/edit?tab=t.0)
 - 🧾 [Manual Test Cases](https://docs.google.com/spreadsheets/d/1_NuMW94xewG4vqqWIeUQpj0Dof7u8tEgr21y5lCfJJs/edit?gid=0#gid=0)
 - 💻 [Cypress Automation] (in progress)
-- 🧪 [Postman API Collection]
 
 ### 🛒 API testing exapmle
 
