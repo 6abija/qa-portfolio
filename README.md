@@ -1,4 +1,4 @@
-# Gabija Jusytė - my QA tester portfolio
+# Gabija Jusyte - my QA tester portfolio
 
 ## About Me 👋
 
