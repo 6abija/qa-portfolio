@@ -43,51 +43,51 @@ In QA, I’ve found the perfect blend of **detail orientation, logic, and impact
 
 ---
 
-## 🧪 Sample Projects
+## Sample Projects
 
-### 📦 OpenCart E-commerce Demo
+### OpenCart E-commerce Demo
 > Manual Testing
 
-- ✅ [Test Plan](https://docs.google.com/document/d/1aDmN6flr0ZWoU_ppdH5lweQguLdr4Sjk69Qf_xN5UWI/edit?tab=t.0)
-- 🧾 [Manual Test Cases](https://docs.google.com/spreadsheets/d/1_NuMW94xewG4vqqWIeUQpj0Dof7u8tEgr21y5lCfJJs/edit?gid=0#gid=0)
-- 🐞 [BUG reports](https://docs.google.com/spreadsheets/d/1UhUFctiYEJOyToYe6ark-CiW9nRW3vex6XK_5jjO5jE/edit?gid=0#gid=0)
+- [Test Plan](https://docs.google.com/document/d/1aDmN6flr0ZWoU_ppdH5lweQguLdr4Sjk69Qf_xN5UWI/edit?tab=t.0)
+- [Manual Test Cases](https://docs.google.com/spreadsheets/d/1_NuMW94xewG4vqqWIeUQpj0Dof7u8tEgr21y5lCfJJs/edit?gid=0#gid=0)
+- [BUG reports](https://docs.google.com/spreadsheets/d/1UhUFctiYEJOyToYe6ark-CiW9nRW3vex6XK_5jjO5jE/edit?gid=0#gid=0)
 
   
-### 🛒 API testing exapmle
+### API testing exapmle
 
-- 📋 [Topocentras](https://github.com/6abija/qa-portfolio/blob/6abija-practicesoftwaretesting/topocentras-api.postman_collection.json)
+- [Topocentras](https://github.com/6abija/qa-portfolio/blob/6abija-practicesoftwaretesting/topocentras-api.postman_collection.json)
   
-_→ Covers: registration, login, profile, cart, wishlist, club membership  
-→ Import directly into Postman to view/test_
+_ Covers: registration, login, profile, cart, wishlist, club membership  
+Import directly into Postman to view/test_
 
-- 📋 [Practice Software Testing](https://github.com/6abija/qa-portfolio/blob/6abija-practicesoftwaretesting/topocentras-api.postman_collection.json)
+- [Practice Software Testing](https://github.com/6abija/qa-portfolio/blob/6abija-practicesoftwaretesting/topocentras-api.postman_collection.json)
 
-_→ Covers: registration, cart, payment, invoice, adding product category  
-→ Import directly into Postman to view/test_
+_Covers: registration, cart, payment, invoice, adding product category  
+Import directly into Postman to view/test_
 
-### 💻 Cypress testing (in progress)
+### Cypress testing (in progress)
 > Automated Testing
 
 ---
 
-## 📜 Courses & Certifications
+## Courses & Certifications
 
-- 🎓 **QA Certification**  
+- **QA Certification**  
   _CodeAcademy: Automatic and Manual Information Systems Testing + AI_
   
-- 🎓 **Web development Certification**  
+- **Web development Certification**  
   _Vilnius CODING School: WEB development_
 
-- 🎓 **Graphic Design certificate**  
+- **Graphic Design certificate**  
   _Specto: Graphic Design (Adobe Photoshop)_
   
-- ✅ Fundamentals of Manual Testing
+- Fundamentals of Manual Testing
 
 ---
 
 ## 🤝 Let’s Connect
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/gabija-jusyte/) 
+- [LinkedIn](https://www.linkedin.com/in/gabija-jusyte/) 
  
 
 ---
