@@ -68,7 +68,7 @@ Import directly into Postman to view/test_
 ### Cypress testing (in progress)
 > Automated Testing
 
-### [Practice Software Testing](https://drive.google.com/drive/u/0/folders/1mnv63BVbaEPCWjSEW7j3giR-NYUi8853)
+### Practice Software Testing ([Click here to view task](https://drive.google.com/drive/u/0/folders/1mnv63BVbaEPCWjSEW7j3giR-NYUi8853))
 
 _Covers a variety of key e-commerce features on [Practise software testing](https://practicesoftwaretesting.com):_
 
@@ -87,7 +87,7 @@ _Covers a variety of key e-commerce features on [Practise software testing](http
 _Import this folder into Visual Studio Code, then open Cypress via npx cypress open and run the tests inside the e2e/ folder._
 
 
-### [Big Box](https://drive.google.com/drive/u/0/folders/15I_xhiUEqkZzCMXkeprk0wU4avO3S6pC)
+### Big Box ([Click here to view task](https://drive.google.com/drive/u/0/folders/15I_xhiUEqkZzCMXkeprk0wU4avO3S6pC))
 
 _Test suite for [BigBox.lt](https://bigbox.lt) simulating a realistic user journey:_
 
@@ -99,7 +99,7 @@ _Test suite for [BigBox.lt](https://bigbox.lt) simulating a realistic user journ
   
 _Import this folder into Visual Studio Code, then open Cypress via npx cypress open and run the tests inside the e2e/ folder._
 
-### [Calculator](https://drive.google.com/drive/u/0/folders/1S5hCIijqxl3onGhBEdK-aKFcWCxTfMDn)
+### Calculator ([Click here to view task](https://drive.google.com/drive/u/0/folders/1S5hCIijqxl3onGhBEdK-aKFcWCxTfMDn))
 
 _Test suite for [calculator](https://testsheepnz.github.io/BasicCalculator) prototype and full versions:_
 
