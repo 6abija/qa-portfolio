@@ -57,7 +57,7 @@ In QA, I’ve found the perfect blend of **detail orientation, logic, and impact
 
 - [Topocentras](https://github.com/6abija/qa-portfolio/blob/6abija-practicesoftwaretesting/topocentras-api.postman_collection.json)
   
-_ Covers: registration, login, profile, cart, wishlist, club membership  
+_Covers: registration, login, profile, cart, wishlist, club membership  
 Import directly into Postman to view/test_
 
 - [Practice Software Testing](https://github.com/6abija/qa-portfolio/blob/6abija-practicesoftwaretesting/topocentras-api.postman_collection.json)
@@ -67,6 +67,55 @@ Import directly into Postman to view/test_
 
 ### Cypress testing (in progress)
 > Automated Testing
+
+### [Practice Software Testing](https://drive.google.com/drive/u/0/folders/1mnv63BVbaEPCWjSEW7j3giR-NYUi8853)
+
+_Covers a variety of key e-commerce features on [Practise software testing](https://practicesoftwaretesting.com):_
+
+- Add product to cart and complete purchase flow
+
+- Add product to favorites
+
+- Check homepage sidebar visibility
+
+- Login form validation
+
+- Product detail and filtering
+
+- Registration form filling and validation
+
+_Import this folder into Visual Studio Code, then open Cypress via npx cypress open and run the tests inside the e2e/ folder._
+
+
+### [Big Box](https://drive.google.com/drive/u/0/folders/15I_xhiUEqkZzCMXkeprk0wU4avO3S6pC)
+
+_Test suite for [BigBox.lt](https://bigbox.lt) simulating a realistic user journey:_
+
+- Search and add product to cart
+  
+- Purchase process from product page to order summary
+  
+- Optional login step (if required for checkout)
+  
+_Import this folder into Visual Studio Code, then open Cypress via npx cypress open and run the tests inside the e2e/ folder._
+
+### [Calculator](https://drive.google.com/drive/u/0/folders/1S5hCIijqxl3onGhBEdK-aKFcWCxTfMDn)
+
+_Test suite for [calculator](https://testsheepnz.github.io/BasicCalculator) prototype and full versions:_
+
+- Add, Subtract, Multiply, Divide
+
+- Concatenate string operations
+
+- Normal operations with integers, decimals, and negatives
+
+- Invalid inputs like letters, empty fields, undefined values
+
+- Edge cases like divide-by-zero, whitespace input, and NaN results
+
+- Reused variables to simulate different user paths
+
+_Import this folder into Visual Studio Code, then open Cypress via npx cypress open and run the tests inside the e2e/ folder._
 
 ---
 
@@ -94,6 +143,6 @@ Import directly into Postman to view/test_
 
 ## 📌 Notes
 
-> This is a living portfolio. I update it with new projects, test cases, bug reports, and automation scripts as I grow in my QA career.
+> This is a living portfolio. I update it as I grow in my QA career.
 
 Thanks for visiting! 🚀
