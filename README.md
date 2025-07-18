@@ -52,7 +52,7 @@ In QA, I’ve found the perfect blend of **detail orientation, logic, and impact
 - [Manual Test Cases](https://docs.google.com/spreadsheets/d/1_NuMW94xewG4vqqWIeUQpj0Dof7u8tEgr21y5lCfJJs/edit?gid=0#gid=0)
 - [BUG reports](https://docs.google.com/spreadsheets/d/1UhUFctiYEJOyToYe6ark-CiW9nRW3vex6XK_5jjO5jE/edit?gid=0#gid=0)
 
-  
+---
 ### API testing exapmle
 
 - [Topocentras](https://github.com/6abija/qa-portfolio/blob/6abija-practicesoftwaretesting/topocentras-api.postman_collection.json)
@@ -65,6 +65,7 @@ Import directly into Postman to view/test_
 _Covers: registration, cart, payment, invoice, adding product category  
 Import directly into Postman to view/test_
 
+---
 ### Cypress testing (in progress)
 > Automated Testing
 
