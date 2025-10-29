@@ -45,7 +45,7 @@ In QA, I’ve found the perfect balance of **logic, precision, and impact**, and
 - Log detailed **bug reports** with steps & attachments
 - Work in **Agile (Scrum)** environments
 - Maintain testing documentation and test reports
-- Automate test scenarios using **Cypress + JavaScript** (in progress)
+- Automate test scenarios using **Cypress + JavaScript** and **Playwright + TypeScript** 
 
 ---
 
@@ -72,7 +72,7 @@ _Covers: registration, cart, payment, invoice, adding product category
 Import directly into Postman to view/test_
 
 ---
-### Cypress testing (in progress)
+### Playwright testing (in progress)
 > Automated Testing
 
 ### Practice Software Testing ([Click here to view task](https://drive.google.com/drive/u/0/folders/1mnv63BVbaEPCWjSEW7j3giR-NYUi8853))
@@ -129,16 +129,19 @@ _Import this folder into Visual Studio Code, then open Cypress via npx cypress o
 ## Courses & Certifications
 
 - **QA Certification**  
-  _CodeAcademy: Automatic and Manual Information Systems Testing + AI_
-  
-- **Web development Certification**  
-  _Vilnius CODING School: WEB development_
+  _CodeAcademy: Automatic and Manual Information Systems Testing + Artificial Intelligence_
 
-- **Graphic Design certificate**  
+- **Playwright Test Automation (TypeScript)**  
+  _Udemy: End-to-End Testing with Playwright_
+
+- **Web Development Certification**  
+  _Vilnius CODING School: Web Development_
+
+- **Graphic Design Certificate**  
   _Specto: Graphic Design (Adobe Photoshop)_
-  
-- Fundamentals of Manual Testing
 
+- **Fundamentals of Manual Testing**
+  
 ---
 
 ## 🤝 Let’s Connect
