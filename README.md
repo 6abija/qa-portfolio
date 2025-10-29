@@ -1,14 +1,20 @@
 # Gabija Jusyte - my QA tester portfolio
 
 ## About Me 👋
+I'm a **QA Specialist** at **Reiz Tech**, passionate about delivering high-quality software through both **manual** and **automated** testing.
 
-Hi! I'm **Gabija**, an aspiring QA tester on a path to build a strong foundation in both **manual** and **automated** software testing. I'm currently completing a QA certification at **CodeAcademy**:  
-_Automatic and Manual Information Systems Testing and Artificial Intelligence_  
-**(Finishing August 18th, 2025)**
+I’ve completed the QA certification at **CodeAcademy** 
+_“Automatic and Manual Information Systems Testing and Artificial Intelligence”_  
+and a **Udemy course in Playwright Automation with TypeScript**.
 
-I’ve completed the **manual testing** part and am now learning **test automation** using **JavaScript with Cypress**, along with **API testing in Postman**. I also freelance as a QA tester, where I work with real-world sites and APIs.
+Currently, I’m focusing on advancing my **test automation** skills with:  
+- **Cypress (JavaScript)**  
+- **Playwright (TypeScript)**  
+- **API testing in Postman**
 
-In QA, I’ve found the perfect blend of **detail orientation, logic, and impact** - and I’m excited to continue learning and contributing to high-quality software.
+I’m also preparing for the **ISTQB certification** to strengthen my theoretical foundation in software testing.
+
+In QA, I’ve found the perfect balance of **logic, precision, and impact**, and I’m excited to keep growing as an **automation-focused tester** while contributing to reliable, efficient, and user-centered software.
 
 ---
 
@@ -16,11 +22,11 @@ In QA, I’ve found the perfect blend of **detail orientation, logic, and impact
 
 | Category              | Tools / Skills                                                               |
 |-----------------------|------------------------------------------------------------------------------|
-| **Test Automation**   | Cypress (JavaScript)                                                         |
+| **Test Automation**   | Cypress (JavaScript), Playwright (TypeScript)                                |
 | **API Testing**       | Postman,JMeter                                                               |
 | **Project Management**| Jira, Trello                                                                 |
 | **Documentation**     | Google Docs, Google Sheets                                                   |
-| **Bug Reporting**     | Jira, Zephyr, screenshots & videos                                           |
+| **Bug Reporting and Test Management**     | Jira, Zephyr, Azure DevOps, screenshots & videos         |
 | **Collaboration**     | Slack, Zoom, Microsoft Teams                                                 |
 | **Browser Tools**     | Chrome DevTools                                                              |
 | **Version Control**   | Git, GitHub                                                                  |
