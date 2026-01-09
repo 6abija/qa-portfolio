@@ -1,7 +1,7 @@
 # Gabija Jusyte - my QA tester portfolio
 
 ## About Me 👋
-I'm a **QA Specialist** at **Reiz Tech**, passionate about delivering high-quality software through both **manual** and **automated** testing.
+I'm a **ISTQB certified** **QA Specialist** at **Reiz Tech**, passionate about delivering high-quality software through both **manual** and **automated** testing.
 
 I’ve completed the QA certification at **CodeAcademy** 
 _“Automatic and Manual Information Systems Testing and Artificial Intelligence”_  
@@ -11,8 +11,6 @@ Currently, I’m focusing on advancing my **test automation** skills with:
 - **Cypress (JavaScript)**  
 - **Playwright (TypeScript)**  
 - **API testing in Postman**
-
-I’m also preparing for the **ISTQB certification** to strengthen my theoretical foundation in software testing.
 
 In QA, I’ve found the perfect balance of **logic, precision, and impact**, and I’m excited to keep growing as an **automation-focused tester** while contributing to reliable, efficient, and user-centered software.
 
